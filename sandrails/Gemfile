@@ -6,10 +6,11 @@ gem 'rails', '3.0.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'rspec'
+gem 'rspec-rails'
 
 group :test do
-  gem 'rspec'
-  gem 'rspec-rails'
+  gem 'ci_reporter'
 end
 
 
