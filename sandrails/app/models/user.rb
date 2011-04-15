@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
   def happy?
-    money >= 10000
+    money >= 1000
   end
 end
